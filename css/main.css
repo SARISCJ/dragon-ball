@@ -6,12 +6,14 @@
   position: relative;
   width: 100%;
   height: 600px; }
-  .container h1 {
-    text-align: center; }
+  .container h1, .container h3 {
+    text-align: center;
+    color: white; }
   .container .foto {
-    background-image: url("imag/z.jpg");
+    background: url(../img/z.jpg);
     background-repeat: no-repeat;
-    background-position: 10px 30px; }
+    height: 625px;
+    margin: 0 auto; }
   .container .esfera {
     background: #ff9933;
     border-radius: 50px;
@@ -20,9 +22,9 @@
     padding: 16.66667px; }
   .container .estrella1 {
     position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translate(1%, 25%); }
+    top: 14%;
+    left: 49%;
+    transform: translate(7%, 24.5%); }
     .container .estrella1 .star-five {
       margin: 17.5px 0;
       position: relative;
@@ -75,8 +77,8 @@
     padding: 30px 5px;
     position: absolute;
     top: 18%;
-    left: 57%;
-    transform: translate(9%, 28.5%); }
+    left: 56.5%;
+    transform: translate(9%, 28.25%); }
     .container .estrella2 .star-five {
       margin: 10px 0;
       position: relative;
@@ -129,8 +131,8 @@
     padding: 20px 10px;
     position: absolute;
     top: 35%;
-    left: 64%;
-    transform: translate(17.5%, 32%); }
+    left: 58%;
+    transform: translate(17.5%, 29%); }
     .container .estrella3 .star-five {
       margin: 9px 0;
       position: relative;
@@ -182,9 +184,9 @@
     justify-content: center;
     padding: 20px 10px;
     position: absolute;
-    top: 55%;
-    left: 56%;
-    transform: translate(27.5%, 28%); }
+    top: 51%;
+    left: 54%;
+    transform: translate(25.5%, 27%); }
     .container .estrella4 .star-five {
       margin: 7.5px 0;
       position: relative;
@@ -236,9 +238,9 @@
     justify-content: center;
     padding: 25px 10px;
     position: absolute;
-    top: 56%;
-    left: 41%;
-    transform: translate(28%, 20.5%); }
+    top: 53%;
+    left: 46%;
+    transform: translate(26.5%, 23%); }
     .container .estrella5 .star-five {
       margin: 6px 0;
       position: relative;
@@ -290,9 +292,9 @@
     justify-content: center;
     padding: 25px 15px;
     position: absolute;
-    top: 38%;
-    left: 35%;
-    transform: translate(19%, 17.5%); }
+    top: 41%;
+    left: 41%;
+    transform: translate(20.5%, 20.5%); }
     .container .estrella6 .star-five {
       margin: 5px 0;
       position: relative;
@@ -344,9 +346,9 @@
     justify-content: center;
     padding: 25px 10px;
     position: absolute;
-    top: 18%;
+    top: 24%;
     left: 42%;
-    transform: translate(9%, 21%); }
+    transform: translate(12%, 21%); }
     .container .estrella7 .star-five {
       margin: 5px 0;
       position: relative;
